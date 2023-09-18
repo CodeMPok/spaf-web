@@ -1,0 +1,73 @@
+body{
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style-type: none;
+}
+
+.join{
+    background-color: yellow;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    height: auto;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.marquesina{
+}
+
+.personaliza{
+}
+
+.personaliza-titulo{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 45px;
+    font-size: 60px;
+}
+
+.personaliza-titulo2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.pasos-items{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.pasos-items-list{
+    padding: 10px;
+}
+
+.nosotros{
+    background-color: white;
+    color: black;
+}
+
+.franquicia{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.franquicia-info{
+    margin-left: 70px;
+}
+
+.franquicia-info-subtitle{
+    position: absolute;
+    right: 10px;
+    text-align: end;
+}
