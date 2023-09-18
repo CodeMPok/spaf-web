@@ -132,9 +132,9 @@ li {
 }
 
 .nosotros-img{
-    position: absolute;
+    position: relative;
     left: 30px;
-    top: 1150px;
+    top: 180px;
 }
 
 .nosotros-txt {
