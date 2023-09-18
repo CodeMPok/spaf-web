@@ -98,8 +98,15 @@ li {
 }
 
 .pasos-items-list-title {
-    font-size: 150%;
-    color: yellow;
+    width: 40px;
+}
+
+.img-title{
+    width: 120px;
+}
+
+.img-title2{
+    width: 54px;
 }
 
 .pasos-items-list-subtitle {
