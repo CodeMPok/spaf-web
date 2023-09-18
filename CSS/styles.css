@@ -1,5 +1,8 @@
-body{
-    margin: 10px;
+body {
+    background-image: url(../asets/img/fondo\ plastic\ negro.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 a {
@@ -7,67 +10,157 @@ a {
     color: inherit;
 }
 
+a:hover {
+    color: yellow;
+}
+
 li {
     list-style-type: none;
 }
 
-.join{
+.logo-store {
+    width: 25%;
+    height: auto;
+}
+
+.navv {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.hambur {
+    position: absolute;
+    right: 30px;
+}
+
+.join {
     background-color: yellow;
-    color: white;
+    color: black;
     text-align: center;
     text-decoration: none;
     width: 100%;
     height: auto;
-    font-size: 40px;
+    font-size: 15px;
     font-weight: bold;
 }
 
-.marquesina{
+.join:hover {
+    background-color: black;
+    color: yellow
 }
 
-.personaliza{
+.marquesina {
+    background-image: url(../asets/img/portada.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+    width: 100%;
+    height: 450px;
 }
 
-.personaliza-titulo{
+.marquesina-txt {
+    text-align: center;
+}
+
+.personaliza {
+    color: white;
+}
+
+.personaliza-titulo {
     text-align: center;
     font-weight: bold;
     margin-top: 45px;
-    font-size: 60px;
+    font-size: 300%;
+    color: yellow;
 }
 
-.personaliza-titulo2{
+.personaliza-titulo2 {
     text-align: center;
     font-weight: bold;
-    font-size: 60px;
+    font-size: 300%;
 }
 
-.pasos-items{
+.pasos-items {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: auto;
 }
 
-.pasos-items-list{
+.pasos-items-list {
     padding: 10px;
 }
 
-.nosotros{
+.pasos-items-list-num {
+    font-weight: bold;
+    font-size: 60px;
+    color: yellow;
+}
+
+.pasos-items-list-title {
+    font-size: 150%;
+    color: yellow;
+}
+
+.pasos-items-list-subtitle {
+    font-size: 9px;
+    text-align: start;
+}
+
+.pasos-items-list-img{
+    width: 100px;
+}
+
+.pasos-items-list-img2{
+    width: 140px;
+}
+
+.pasos-items-list-img3{
+    width: 80px;
+}
+
+.nosotros {
     background-color: white;
     color: black;
 }
 
-.franquicia{
+.nosotros-img{
+    position: absolute;
+    left: 30px;
+    top: 1150px;
+}
+
+.nosotros-txt {
+    margin: 20px;
+    margin-right: 20px;
+    text-align: end;
+}
+
+.nosotros-title {
+    margin: 20px;
+    margin-right: 20px;
+    text-align: end;
+}
+
+.franquicia {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
+    color: white;
+    margin: 30px;
 }
 
-.franquicia-info{
-    margin-left: 70px;
+.info{
+width: 20%;
+height: auto;
 }
 
-.franquicia-info-subtitle{
+.franquicia-info {
+    text-align: end;
+}
+
+.franquicia-info-subtitle {
     position: absolute;
-    right: 10px;
+    right: 20px;
     text-align: end;
 }
