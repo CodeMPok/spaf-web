@@ -135,6 +135,8 @@ li {
     position: relative;
     left: 30px;
     top: 180px;
+    max-width: 100%;
+    height: auto;
 }
 
 .nosotros-txt {
