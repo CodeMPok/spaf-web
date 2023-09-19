@@ -18,6 +18,8 @@ li {
     list-style-type: none;
 }
 
+@media (max-width: 767px) {
+
 .logo-store {
     width: 25%;
     height: auto;
@@ -34,7 +36,7 @@ li {
 }
 
 .join {
-    background-color: yellow;
+    background-color: rgb(236, 236, 92);
     color: black;
     text-align: center;
     text-decoration: none;
@@ -72,7 +74,7 @@ li {
     font-weight: bold;
     margin-top: 45px;
     font-size: 300%;
-    color: yellow;
+    color: rgb(236, 236, 92);
 }
 
 .personaliza-titulo2 {
@@ -83,7 +85,7 @@ li {
 
 .pasos-items {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: auto;
 }
 
@@ -103,10 +105,12 @@ li {
 
 .img-title{
     width: 120px;
+    height: auto;
 }
 
 .img-title2{
     width: 54px;
+    height: auto;
 }
 
 .pasos-items-list-subtitle {
@@ -116,14 +120,18 @@ li {
 
 .pasos-items-list-img{
     width: 100px;
+    height: auto;
 }
 
 .pasos-items-list-img2{
     width: 140px;
+    height: auto;
 }
 
 .pasos-items-list-img3{
-    width: 80px;
+    width: 60px;
+    height: auto;
+    margin-bottom: 10px;
 }
 
 .nosotros {
@@ -169,7 +177,8 @@ height: auto;
 }
 
 .franquicia-info-subtitle {
-    position: absolute;
+    position: relative;
     right: 20px;
     text-align: end;
+}
 }
