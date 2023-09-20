@@ -181,15 +181,13 @@ li {
     }
     
     .franquicia {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 40px;
         color: white;
         margin: 30px;
     }
 
     .franquicia-title{
         font-size: 25px;
+        text-align: center;
     }
     
     .info{
@@ -198,7 +196,7 @@ li {
     }
     
     .franquicia-info {
-        text-align: end;
+        text-align: center;
     }
     
     .franquicia-info-subtitle {
@@ -378,11 +376,13 @@ li {
 }
 
 .franquicia {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
     color: white;
     margin: 30px;
+}
+
+.franquicia-title{
+    font-size: 25px;
+    text-align: center;
 }
 
 .info{
@@ -391,8 +391,9 @@ height: auto;
 }
 
 .franquicia-info {
-    text-align: end;
+    text-align: center;
 }
+
 
 .franquicia-info-subtitle {
     position: relative;
