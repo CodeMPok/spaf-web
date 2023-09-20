@@ -36,6 +36,14 @@ li {
         box-shadow: 5px 5px 10px #888888;
     }
 
+    .nav-item{
+        font-weight: bold;
+    }
+
+    .logo-spaf-menu{
+        width: 12%;
+    }
+
     .join {
         background-color: rgb(236, 236, 92);
         color: black;
@@ -223,6 +231,14 @@ li {
     position: absolute;
     right: 30px;
     box-shadow: 5px 5px 10px #888888;
+}
+
+.nav-item{
+    font-weight: bold;
+}
+
+.logo-spaf-menu{
+    width: 12%;
 }
 
 .join {
