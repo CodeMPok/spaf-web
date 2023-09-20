@@ -33,7 +33,7 @@ li {
     .hambur{
         position: absolute;
         right: 30px;
-        box-shadow: 5px 5px 10px #888888;
+        box-shadow: 5px 5px 10px #272727;
     }
 
     .nav-item{
@@ -230,7 +230,7 @@ li {
 .hambur {
     position: absolute;
     right: 30px;
-    box-shadow: 5px 5px 10px #888888;
+    box-shadow: 5px 5px 10px #272727;
 }
 
 .nav-item{
