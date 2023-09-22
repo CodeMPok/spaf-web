@@ -296,6 +296,13 @@ li {
         margin-right: 40px;
     }
 
+    .logo-store2{
+        width: 50%;
+        margin-top: 20%;
+        margin-left: 20%;
+        
+    }
+
     .logo-spaf1{
         width: 7%;
     }
@@ -443,6 +450,10 @@ li {
         background-color: white;
         color: black;
     }
+
+    .img-about-padre{
+        text-align: end;
+    }
     
     .nosotros-padre{
         position: relative;
@@ -468,11 +479,28 @@ li {
         color: black;
         font-weight: bold;
     }
+
+    .nosotros-txt3 {
+        font-size: 25px;
+        margin: 20px;
+        text-align: start; 
+        color: white;
+        font-weight: bold;
+    }
     
     .nosotros-title {
         color: black;
         text-align: center;
         font-weight: bold;
+    }
+
+    .spaf-colums{
+        background-image: url(../asets/img/textura\ spaf\ store\ copia.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
     }
     
     .franquicia {
