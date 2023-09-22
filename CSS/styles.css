@@ -208,6 +208,14 @@ li {
         color: black;
         font-weight: bold;
     }
+
+    .nosotros-txt2 {
+        font-size: 10px;
+        margin: 20px;
+        text-align: start; 
+        color: black;
+        font-weight: bold;
+    }
     
     .nosotros-title {
         color: black;
