@@ -1,4 +1,4 @@
-body{
+body {
     background-image: url(../asets/spaf/PLASTIC.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -64,27 +64,41 @@ li {
 
     .marquesina-spaf {
         background-image: url(../asets/spaf/portada\ nosotros.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
         margin: 0px;
         padding: 0px;
+        width: 100%;
     }
 
     .espacio {
         border: 1px solid transparent;
-        padding: 10px;
-        height: 450px;
+        margin: 0px;
+        padding: 0px;
+        height: 210px;
         width: 100%;
     }
 
-    .section-nosotros{
+    .section-nosotros {
         margin: 4%;
         margin-top: 10%;
     }
 
-    .nosotros-txt{
+    .nosotros-img-item {
+        width: 50%;
+        margin-top: 10px;
+    }
+
+    .nosotros-txt {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 40px;
         font-size: 13px;
+    }
+
+    .nosotros-txt1 {
+        margin-top: 20px;
     }
 
     .deportes {
@@ -170,9 +184,7 @@ li {
     .deportes-list-img11,
     .deportes-list-img12 {
         width: 70%;
-        text-align: center;
-        margin-left: 20%;
-        margin-right: 20%;
+        margin-left: 15%;
     }
 
     .deportes-list-img1:hover,
@@ -186,7 +198,7 @@ li {
     .deportes-list-img9:hover,
     .deportes-list-img10:hover,
     .deportes-list-img11:hover,
-    .deportes-list-img12:hover{        
+    .deportes-list-img12:hover {
         background-image: url(../asets/spaf/Rectángulo\ para\ botonera\ de\ deportes.png);
     }
 
@@ -200,11 +212,56 @@ li {
         margin-bottom: 15%;
     }
 
-    .work{
+    .work {
         background-image: url(../asets/spaf/pie\ de\ pagina\ spaf.png);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
+    }
+
+    .trabajar {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .trabajar-img-item{
+        width: 140%;
+        height: auto !important;
+        margin-top: 45%;
+    }
+
+    .boton-info{
+        text-align: end;
+        margin-right: 25%;
+        margin-top: 65%;
+    }
+
+    .btn-padre{
+        width: 70px;
+        text-align: end;
+    }
+
+    .info-btn{
+        width: 70px;
+        text-align: end;
+    }
+
+    .redes {
+        text-align: end;
+        margin-right: 10%;
+    }
+
+    .ig {
+        width: 20%;
+    }
+
+    .fb {
+        width: 20%;
+        margin-right: 5%;
+    }
+
+    .negro-pie {
+        width: 100%;
     }
 
 }
