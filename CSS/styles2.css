@@ -1,0 +1,165 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style-type: none;
+}
+
+@media screen and (max-width: 767px) {
+
+    .navbar-brand {
+        text-align: center;
+    }
+
+    .logo-store {
+        width: 35%;
+        height: auto;
+        margin-right: 15px;
+    }
+
+    .logo-spaf1 {
+        width: 16%;
+    }
+
+    .navbar {
+        background-image: url(../asets/img/Rectángulo\ degrade.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: end center;
+    }
+
+    .navv {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .navbar-toggler.hambur {
+        border: none;
+        outline: none;
+        background-color: transparent;
+        padding: 0;
+    }
+
+    .hambur {
+        position: absolute;
+        right: 30px;
+    }
+
+    .nav-item {
+        font-weight: bold;
+    }
+
+    .logo-spaf-menu {
+        width: 12%;
+    }
+
+    .marquesina-spaf {
+        background-image: url(../asets/spaf/portada\ nosotros.png);
+    }
+
+    .espacio {
+        border: 1px solid transparent;
+        padding: 10px;
+    }
+
+    .deportes {
+        background-image: url(../asets/img/wood.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .deportes-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, auto);
+        gap: 1%;
+        grid-template-areas:
+            "a b b"
+            "c d d"
+            "e f f"
+            "g h i"
+            "j k k"
+            "l";
+    }
+
+
+    .deportes-list-img1 {
+        grid-area: a;
+    }
+
+    .deportes-list-img2 {
+        grid-area: b;
+    }
+
+    .deportes-list-img3 {
+        grid-area: c;
+    }
+
+    .deportes-list-img4 {
+        grid-area: d;
+    }
+
+    .deportes-list-img5 {
+        grid-area: e;
+    }
+
+    .deportes-list-img6 {
+        grid-area: f;
+    }
+
+    .deportes-list-img7 {
+        grid-area: g;
+    }
+
+    .deportes-list-img8 {
+        grid-area: h;
+    }
+
+    .deportes-list-img9 {
+        grid-area: i;
+    }
+
+    .deportes-list-img10 {
+        grid-area: j;
+    }
+
+    .deportes-list-img11 {
+        grid-area: k;
+    }
+
+    .deportes-list-img12 {
+        grid-area: l;
+    }
+
+    .deportes-list-img1,
+    .deportes-list-img2,
+    .deportes-list-img3,
+    .deportes-list-img4,
+    .deportes-list-img5,
+    .deportes-list-img6,
+    .deportes-list-img7,
+    .deportes-list-img8,
+    .deportes-list-img9,
+    .deportes-list-img10,
+    .deportes-list-img11,
+    .deportes-list-img12 {
+        width: 70%;
+        text-align: center;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .deportes-list-img1,
+    .deportes-list-img2 {
+        margin-top: 10%;
+    }
+
+    .deportes-list-img11,
+    .deportes-list-img12 {
+        margin-bottom: 15%;
+    }
+
+}
