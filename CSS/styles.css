@@ -94,6 +94,15 @@ li {
         height: auto;
     }
 
+    .marquesina-spaf{
+        background-image: url(../asets/spaf/portada\ nosotros.png);
+    }
+
+    .espacio{
+        border: 1px solid transparent;
+        padding: 10px;
+    }
+
     .marquesina-txt {
         text-align: center;
     }
