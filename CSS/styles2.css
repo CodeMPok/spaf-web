@@ -1,3 +1,10 @@
+body{
+    background-image: url(../asets/spaf/PLASTIC.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -57,11 +64,27 @@ li {
 
     .marquesina-spaf {
         background-image: url(../asets/spaf/portada\ nosotros.png);
+        margin: 0px;
+        padding: 0px;
     }
 
     .espacio {
         border: 1px solid transparent;
         padding: 10px;
+        height: 450px;
+        width: 100%;
+    }
+
+    .section-nosotros{
+        margin: 4%;
+        margin-top: 10%;
+    }
+
+    .nosotros-txt{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+        font-size: 13px;
     }
 
     .deportes {
@@ -152,6 +175,21 @@ li {
         margin-right: 20%;
     }
 
+    .deportes-list-img1:hover,
+    .deportes-list-img2:hover,
+    .deportes-list-img3:hover,
+    .deportes-list-img4:hover,
+    .deportes-list-img5:hover,
+    .deportes-list-img6:hover,
+    .deportes-list-img7:hover,
+    .deportes-list-img8:hover,
+    .deportes-list-img9:hover,
+    .deportes-list-img10:hover,
+    .deportes-list-img11:hover,
+    .deportes-list-img12:hover{        
+        background-image: url(../asets/spaf/Rectángulo\ para\ botonera\ de\ deportes.png);
+    }
+
     .deportes-list-img1,
     .deportes-list-img2 {
         margin-top: 10%;
@@ -160,6 +198,13 @@ li {
     .deportes-list-img11,
     .deportes-list-img12 {
         margin-bottom: 15%;
+    }
+
+    .work{
+        background-image: url(../asets/spaf/pie\ de\ pagina\ spaf.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
     }
 
 }
