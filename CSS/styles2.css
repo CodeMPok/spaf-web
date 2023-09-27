@@ -226,7 +226,6 @@ li {
 
     .trabajar-img-item{
         width: 140%;
-        height: auto !important;
         margin-top: 45%;
     }
 
@@ -260,10 +259,8 @@ li {
         margin-right: 5%;
     }
 
-    .negro-pie {
+    .negro-pie{
         width: 100%;
-        height: auto;
-        text-align: start;
     }
 
 }
