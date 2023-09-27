@@ -83,23 +83,6 @@ li {
         margin-bottom: -30px;
     }
 
-    .acepto{
-        width: 15%;
-        text-align: center;
-        margin-top: 0;
-    }
-
-    .return{
-        text-align: center;
-    }
-
-    .flecha{
-        text-align: center;
-        width: 8%;
-        margin-top: 6%;
-        margin-bottom: 5%;
-    }
-
     .espacio {
         border: 1px solid transparent;
         margin: 0px;
@@ -285,6 +268,22 @@ li {
     .fb {
         width: 20%;
         margin-right: 5%;
+    }
+
+    .acepto{
+        width: 15%;
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .return{
+        text-align: center;
+    }
+
+    .flecha{
+        text-align: center;
+        width: 8%;
+        margin-top: 6%;
     }
 
     .negro-pie{
