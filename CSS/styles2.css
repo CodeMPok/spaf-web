@@ -295,3 +295,291 @@ li {
     }
 
 }
+
+/*----------------------------------------------*/
+/*----------------------------------------------*/
+/*----------------------------------------------*/
+/*----------------------------------------------*/
+/*----------------------------------------------*/
+
+@media (min-width: 768px) and (max-width: 1950px) {
+
+    .navbar-brand {
+        text-align: center;
+    }
+
+    .logo-store {
+        width: 35%;
+        height: auto;
+        margin-right: 15px;
+    }
+
+    .logo-spaf1 {
+        width: 20%;
+    }
+
+    .navbar {
+        background-image: url(../asets/img/Rectángulo\ degrade.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: end center;
+    }
+
+    .navv {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .navbar-toggler.hambur {
+        border: none;
+        outline: none;
+        background-color: transparent;
+        padding: 0;
+    }
+
+    .hambur {
+        position: absolute;
+        right: 30px;
+    }
+
+    .nav-item {
+        font-weight: bold;
+    }
+
+    .logo-spaf-menu {
+        width: 12%;
+    }
+
+    .logo-menu{
+        width: 33%;
+    }
+
+    .marquesina-spaf {
+        background-image: url(../asets/spaf/portada\ nosotros.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .asi-trabajamos{
+        text-align: center;
+    }
+
+    .normas-pedidos{
+        width: 80%;
+        margin: 20px;
+        margin-top: 0;
+        margin-bottom: -30px;
+    }
+
+    .espacio {
+        border: 1px solid transparent;
+        margin: 0px;
+        padding: 0px;
+        height: 210px;
+        width: 100%;
+    }
+
+    .section-nosotros {
+        margin: 4%;
+        margin-top: 10%;
+    }
+
+    .nosotros-img-item {
+        width: 50%;
+        margin-top: 10px;
+    }
+
+    .nosotros-txt {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+        font-size: 13px;
+    }
+
+    .nosotros-txt1 {
+        margin-top: 20px;
+    }
+
+    .deportes {
+        background-image: url(../asets/img/wood.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .deportes-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, auto);
+        gap: 1%;
+        grid-template-areas:
+            "a b b"
+            "c d d"
+            "e f f"
+            "g h i"
+            "j k k"
+            "l";
+    }
+
+
+    .deportes-list-img1 {
+        grid-area: a;
+    }
+
+    .deportes-list-img2 {
+        grid-area: b;
+    }
+
+    .deportes-list-img3 {
+        grid-area: c;
+    }
+
+    .deportes-list-img4 {
+        grid-area: d;
+    }
+
+    .deportes-list-img5 {
+        grid-area: e;
+    }
+
+    .deportes-list-img6 {
+        grid-area: f;
+    }
+
+    .deportes-list-img7 {
+        grid-area: g;
+    }
+
+    .deportes-list-img8 {
+        grid-area: h;
+    }
+
+    .deportes-list-img9 {
+        grid-area: i;
+    }
+
+    .deportes-list-img10 {
+        grid-area: j;
+    }
+
+    .deportes-list-img11 {
+        grid-area: k;
+    }
+
+    .deportes-list-img12 {
+        grid-area: l;
+    }
+
+    .deportes-list-img1,
+    .deportes-list-img2,
+    .deportes-list-img3,
+    .deportes-list-img4,
+    .deportes-list-img5,
+    .deportes-list-img6,
+    .deportes-list-img7,
+    .deportes-list-img8,
+    .deportes-list-img9,
+    .deportes-list-img10,
+    .deportes-list-img11,
+    .deportes-list-img12 {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .deportes-list-img1:hover,
+    .deportes-list-img2:hover,
+    .deportes-list-img3:hover,
+    .deportes-list-img4:hover,
+    .deportes-list-img5:hover,
+    .deportes-list-img6:hover,
+    .deportes-list-img7:hover,
+    .deportes-list-img8:hover,
+    .deportes-list-img9:hover,
+    .deportes-list-img10:hover,
+    .deportes-list-img11:hover,
+    .deportes-list-img12:hover {
+        background-image: url(../asets/spaf/Rectángulo\ para\ botonera\ de\ deportes.png);
+    }
+
+    .deportes-list-img1,
+    .deportes-list-img2 {
+        margin-top: 10%;
+    }
+
+    .deportes-list-img11,
+    .deportes-list-img12 {
+        margin-bottom: 15%;
+    }
+
+    .work {
+        background-image: url(../asets/spaf/pie\ de\ pagina\ spaf.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .trabajar {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .trabajar-img-item{
+        width: 140%;
+        margin-top: 45%;
+    }
+
+    .boton-info{
+        text-align: end;
+        margin-right: 25%;
+        margin-top: 65%;
+    }
+
+    .btn-padre{
+        width: 70px;
+        text-align: end;
+    }
+
+    .info-btn{
+        width: 70px;
+        text-align: end;
+    }
+
+    .redes {
+        text-align: end;
+        margin-right: 10%;
+    }
+
+    .ig {
+        width: 20%;
+    }
+
+    .fb {
+        width: 20%;
+        margin-right: 5%;
+    }
+
+    .acepto{
+        width: 15%;
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .return{
+        text-align: center;
+    }
+
+    .flecha{
+        text-align: center;
+        width: 8%;
+        margin-top: 6%;
+    }
+
+    .negro-pie{
+        width: 100%;
+    }
+
+}
