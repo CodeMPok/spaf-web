@@ -1,3 +1,4 @@
+
 body {
     background-image: url(../asets/img/fondo\ plastic\ negro.jpg);
     background-size: cover;
@@ -5,6 +6,10 @@ body {
     background-position: center center;
     font-family: bahnschrift;
 }
+
+$custom-color: (
+    "spaf": #ffc107
+)
 
 a {
     text-decoration: none;
@@ -248,13 +253,17 @@ li {
 
     .franquicia-draw{
         display: grid;
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 
     .partner-img{
-    width: 100%;
+    width: 120%;
     height: auto;
     align-items: start;
+    }
+
+    .card-info{
+        background-color: rgb(236, 236, 92);
     }
     
     .info{
