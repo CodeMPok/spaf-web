@@ -76,6 +76,16 @@ li {
         width: 100%;
     }
 
+    .marquesina-basquet {
+        background-image: url(../asets/spaf/deporte/PORTADA\ BASQUET.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+    }
+
     .asi-trabajamos{
         text-align: center;
     }
