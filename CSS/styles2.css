@@ -66,28 +66,13 @@ li {
         width: 33%;
     }
 
-    .marquesina-spaf {
-        background-image: url(../asets/spaf/portada\ nosotros.png);
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center center;
-        margin: 0px;
-        padding: 0px;
-        width: 100%;
-    }
-
-    .marquesina-basquet {
-        background-image: url(../asets/spaf/deporte/PORTADA\ BASQUET.png);
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center center;
-        margin: 0px;
-        padding: 0px;
-        width: 100%;
-    }
-
     .portada-rugby{
         width: 100%;
+    }
+
+    .portada-rugby2{
+        width: 100%;
+        margin-top: -5%;
     }
 
     .asi-trabajamos{
@@ -97,7 +82,7 @@ li {
     .normas-pedidos{
         width: 80%;
         margin: 20px;
-        margin-top: 0;
+        margin-top: -5%;
         margin-bottom: -30px;
     }
 
