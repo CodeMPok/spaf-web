@@ -1,0 +1,124 @@
+body {
+    background-image: url(../asets/img/shop/fondo\ store\ remeras.png);
+    /*background-size: cover;
+    /*background-repeat: no-repeat;*/
+    background-position: center center;
+    font-family: bahnschrift;
+}
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: yellow;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+@media screen and (max-width: 767px) {
+    .navbar-brand{
+        text-align: center;
+    }
+
+    .logo-store{        
+        width: 35%;
+        height: auto;
+    }
+
+    .logo-spaf1{
+        width: 16%;
+    }
+
+    .navbar{
+        background-image: url(../asets/img/Rectángulo\ degrade.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: end center;
+        width: 100%;
+    }
+
+    .navv{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .navbar-toggler.hambur {
+        border: none;
+        outline: none;
+        background-color: transparent;
+        padding: 0;
+    }
+
+    .hambur{
+        position: absolute;
+        right: 30px;
+    }
+
+    .nav-item{
+        font-weight: bold;
+    }
+
+    .logo-spaf-menu{
+        width: 12%;
+    }
+
+    .logo-menu{
+        width: 29%;
+    }
+
+    .logo-menu2{
+        width: 16%;
+    }
+
+    .products-box{
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    /*.tienda{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5%;
+        margin: 2%;
+        margin-top: 5%;
+    }*/
+
+    .personaliza {
+        color: white;
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    .personaliza-titulo {
+        width: 80%;
+        height: auto;
+    
+    }
+
+    /*--------------SHOP-----------------*/
+
+    .encabezado-shop{
+        width: 100%;
+        height: auto;
+        margin-top: 5%;
+    }
+
+    .card{
+        background-color: rgba(239, 255, 106, 0.3);
+        border: none;
+    }
+
+    .card-img-top{
+        margin-top: 10%;
+    }
+
+    .shop{
+        align-items: center;
+    }
+
+    /*-----------------------------------*/
+
+}

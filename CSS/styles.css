@@ -25,10 +25,9 @@ li {
         text-align: center;
     }
 
-    .logo-store{
+    .logo-store{        
         width: 35%;
         height: auto;
-        margin-right: 10px;
     }
 
     .logo-spaf1{
@@ -284,6 +283,21 @@ li {
         right: 20px;
         text-align: end;
     }
+
+    
+    /*--------------SHOP-----------------*/
+
+    .encabezado-shop{
+        width: 100%;
+        height: auto;
+        margin-top: 5%;
+    }
+
+    .shop{
+        align-items: center;
+    }
+
+    /*-----------------------------------*/
 
     .redes{
         text-align: end;
