@@ -121,4 +121,15 @@ li {
 
     /*-----------------------------------*/
 
+    .negro-pie{
+        width: 100%;
+    }
+
+    footer{
+        background-color: rgba(3, 3, 3, 0.899);
+        text-align: center;
+        color: white;
+    }
+
+
 }
