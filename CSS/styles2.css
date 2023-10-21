@@ -74,24 +74,6 @@ li {
         width: 100%;
     }
 
-    .ver-mas{
-        position: absolute;
-        top: 49%;
-        right: 5%;
-    }
-
-    .ver-mas2{
-        position: absolute;
-        top: 73%;
-        right: 55%;
-    }
-
-    .ver-mas3{
-        position: absolute;
-        top: 96%;
-        right: 5%;
-    }
-
     .redes {
         text-align: end;
         margin-right: 10%;
