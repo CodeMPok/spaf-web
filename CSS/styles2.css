@@ -74,6 +74,35 @@ li {
         width: 100%;
     }
 
+    .cabeza{
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    .cabeza-img{
+        width: 80%;
+    }
+
+    .botones{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin-top: 2%;
+        margin-bottom: 7%;
+        text-align: center;
+    }
+
+    .boton-img{
+        width: 83%;
+    }
+
+    .hombre-clasica-img{
+        width: 100%;
+    }
+
+    .mujer-clasica-img{
+        width: 100%;
+    }
+
     .redes {
         text-align: end;
         margin-right: 10%;
@@ -137,7 +166,7 @@ footer {
     }
 
     .logo-spaf1 {
-        width: 20%;
+        width: 80%;
     }
 
     .navbar {
@@ -161,12 +190,13 @@ footer {
         right: 30px;
     }
 
-    .nav-link.active {
+    .navv-link.active {
         color: rgb(239, 255, 106);
     }
 
     .nav-item {
         font-weight: bold;
+        margin: 5%;
     }
 
     .logo-spaf-menu {
@@ -188,7 +218,6 @@ footer {
     .wood-business {
         width: 100%;
     }
-
 
     .redes {
         text-align: end;
